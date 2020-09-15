@@ -1,0 +1,253 @@
+V.0.4.14.0
+# Features:
+
+# Bugfixes:
+- Bei Überlagerungen konnte der Bildschirm einfrieren. Überprüfung des Kompatibilitätsmodus bei Überlagerungen eingebaut mit der Möglichkeit Dokumente ohne Kompatiblitätsmodus zu speichern.
+
+
+V.0.4.13.0
+# Features:
+- Beim Ausblenden der Texte und Objekte werden auch alle Überlagerungen automatisch mit ausgeblendet.
+- Bei Einblendung der Überlagerungen werden auch alle ausgeblendeten Texte und Objekte eingeblendet.
+- Beim Schnelldruck oder PDF erstellen werden die Überlagerungen ausgedruckt.
+
+# Bugfixes:
+- 
+
+
+V.0.4.12.0
+# Features:
+- Dialogfenster "Erweiterter PDF Export" angepasst. "Nur Auswahl" kann nur bei einer tatsächlichen Cursorauswahl angeklickt werden. Für den Druck eines Seitenbereichs kann nun explizit "Seite ausgewählt werden"
+
+# Bugfixes:
+- Einstellungsfenster war zu klein, so dass die Schaltflächen nicht sichtbar waren. (Scroll-Funktion ergänzt)
+
+V.0.4.11.0
+# Features:
+- Überlagerung wurde in Präsentationsmodus umbenannt.
+- ToogleButton Präsentation eingefügt. Dieser blendet die Rechtschreibung und Grammatikprüfung sowie die Absatzmarken ein bzw. aus.
+- In der Ausgabe kann ausgewählt werden, ob "ausgeblendeter Text" (MS Word Funktion) gedruckt werden soll oder nicht. Button ist in den Einstellungen ein und ausblendbar
+
+# Bugfixes:
+- Revisionsdruck korrigiert. Revision wurde gedruckt, obwohl Haken bei Ausgabe nicht gesetzt war.
+- kleinere Korrrekturen
+
+V.0.4.10.0
+# Features:
+- Überlagerungen können eingefügt, eingeblendet und ausgeblendet werden. Überlagerungen können verwendet werden, um eine Lösung kurzfristig ausgeblendet zu lassen. Die Funktion ist in der Dokumentation näher beschrieben und muss über die Einstellungen zunächst aktiviert werden (Reiter: Objekte --> Überlagerungen)
+
+# Bugfixes:
+- kleinere Korrrekturen und Hotkeys
+
+V.0.4.9.0
+# Features:
+- PDF Lösungsbezeichnung kann als Suffix oder Präfix hinzugefügt werden. Hierfür gibt es in den Einstellungen eine neue ComboBox.
+
+# Bugfixes:
+- neue Hilfetexte 
+
+V.0.4.8.0
+# Features:
+
+
+# Bugfixes:
+- Die erste Seite wird beim PDF erstellen nur dann ignoriert, wenn der Haken bei Revision gesetzt ist und eine Revision vorhanden ist. Vorher war die Prüfung nur auf den Haken.
+- Bildschirm wurde nach Einfuegen einer linierten Vorlage nicht mehr aktualiesiert (unfreeze)
+- Mit Revisionstabelle konnten maximal 4 Seiten gedruckt werden, da die Ermittlung der Seitenanzahl falschen Wert geliefert hat.
+
+###############################################################
+###############################################################
+
+V.0.4.7.0
+# Features:
+- Im Gruppenfeld "Ausgabe" wurde die Checkbox "Revision" hinzugefügt. Ist diese nicht gesetzt, dann wird in der PDF Ausgabe, die erste Seite nicht angedruckt. Der Standardwert der Checkbox kann in den Einstellungen eingestellt werden. Die Checkbox wird nur angezeigt, wenn "Revision" in den Einstellungen als "anzeigen" aktiviert ist.
+
+# Bugfixes:
+- Die erste Seite wurde nicht mehr im PDF angezeigt. 
+
+###############################################################
+###############################################################
+
+V.0.4.6.0
+# Features:
+- Einfügen einer Revisions-Seite zu Beginn eines Dokuments.
+
+# Bugfixes:
+- kleinere Korrekturen
+
+###############################################################
+###############################################################
+V.0.4.5.0
+# Features:
+- Bildschirmänderungen sind nicht sichtbar, während des Ein- und Ausblendens sowie während Objekte eingefügt werden.
+- Der Fortschritt der eingeblendeten und ausgeblendeten Objekte wird in % in der Statusbar angezeigt.
+
+# Bugfixes:
+- 
+
+###############################################################
+###############################################################
+
+V.0.4.4.0
+# Features:
+- 
+
+# Bugfixes:
+- Link zur Dokumentation aus dem Einstellungsfenster wurde aktualisiert
+- Prüfung auf doc und docx mit Fehlermeldung, da bestimmte Funktion bei doc nicht möglich sind
+  (Schriftfarbe)
+
+###############################################################
+###############################################################
+
+V.0.4.3.0
+# Features:
+- Erweiterte PDF Ausgabe Einstellungen (inkl. neue Einstellungsmöglichkeiten)
+  (Festlegung eines Seitenbereichs, Kommentare drucken, Ausgabe-Ordner öffnen nach Export)
+- Einfügen des Dokumentenpfads und/oder Dokumentennamens über eine Schaltfläche
+
+# Bugfixes:
+- Anzeige des PDF Ausgabe Pfades im Einstellungsfenster	in Abhängigkeit 
+  des ausgewählten Ausgabetyps 
+- Farbauswahl war nicht immer korrekt, da die Standard Formatvorlagen für Überschriften
+  Alpha Kanal Farben verwenden. Die Auswahl solcher Farben wird unterbunden.
+
+###############################################################
+###############################################################
+
+V.0.4.2.0
+# Features:
+- Anzeige eines Änderungsprotokolls nach Aktualisierung von LKTools
+- Manuelle Anzeige des Änderungsprotokolls in den Einstellungen / Reiter Update
+
+# Bugfixes:
+- Dialogfenster öffnen sich nun in der Bildschirmmitte
+- Unterstrich bei der Bezeichnung des PDF Exports entfernt (Kann bei Bedarf manuell in der Bezeichnung festgelegt werden)
+
+###############################################################
+###############################################################
+
+V.0.4.1.0
+# Bugfixes:
+- Färben findet keine Auswahl (z. B. über mehrere Tabellenzeilen)
+- Unterstrich bei der Bezeichnung des PDF Exports entfernt (Kann bei Bedarf manuell in der Bezeichnung festgelegt werden)
+- Bezeichnung der PDF Ausgabe lässt nun auch Leerzeichen, Bindestriche und Unterstriche zu.
+
+###############################################################
+###############################################################
+
+V.0.4.0.0
+# Features
+ ## Allgemein:
+- Änderung des Einstellungsfensters (Tab-Reihenfolge)
+- Benutzer kann über ausgeblendete Objekte beim Start von Word informiert werden (Einstellung) --> funktioniert nur beim ersten Start von MS Word und nicht wenn mehrere Dokumente gleichzeitig geöffnet werden.
+- Benachrichtigung bei manueller Update-Überprüfung, falls kein Update gefunden wurde
+- Im Dialogfenster Einstellungen gibt es nun eine Schnellhilfe 
+
+ ## Objekte:
+- Grafische Darstellung der Notenverteilung 
+- Hinzufügen einer Vorlage für Aufgaben (Anzahl der Zeilen ist über Ribbon einstellbar)
+- Hinzufügen einer Vorlage für Prüfungsaufgaben (Anzahl der Zeilen ist über Ribbon einstellbar)
+- Hinzufügen einer Vorlage für Leistungsnachweise (Anzahl der Zeilen ist über Ribbon einstellbar)
+- Hinzufügen von MC (Multiple Choice) Aufgaben (Anzahl der Zeilen ist über Ribbon einstellbar)
+- Hinzufügen von Richtig/Falsch Aufgaben (optional mit Begründung) (Anzahl der Zeilen ist über Ribbon einstellbar)
+- Textfarbe der eingefügten Linearen Vorlage ist automatisch die Ausblendfarbe
+- Der Style (gepunktet, gestrichelt, durchgezogen) und die Breite der linierten Vorlage kann in den Einstellungen festgelegt werden.
+- Alle Buttons im Reiter Einfügen können einzeln ein- oder ausgeblendet werden.
+- Auch Formen lassen sich nun automatisch in der Ausblendfarbe färben
+- Wird ein Objekt gefärbt, dass mit der Eigenschaft "Text in Zeile" eingefügt ist, kann es bei Bedarf schnell umgewandelt werden.
+
+ ## Ausgabe:
+- PDF Ausgabe in Unterordner oder festen Pfad möglich
+- Anzeige des Speicherdialogs, falls PDF Export gewünscht und Datei noch nicht gespeichert.
+- Schnellauswahl der PDF Ausgabe (Lösung / Ohne Lösung) im Ribbon
+- Schnellauswahl des Schnelldrucks (Lösung / Ohne Lösung) im Ribbon
+
+# Bugfixes:
+- Fehler in der Gültigkeitsprüfung der Notenbereiche im Einstellungsfenster
+- Fehler in der Gültigkeitsprüfung der Notenwerte in der Notentabelle
+- Korrektur der Überprüfung von ausgeblendeten Inhalten
+- Der Status (ContentHidden) in den Dokumenteneigenschaften gibt an, ob Inhalte ausgeblendet sind. Das Symbol im Tab ist nicht aussagekräftig, wenn mehrere Dokumente verwendet werden.
+- Überprüfung auf ausgeblendete Inhalte erfolgt erst nach vollständigen Laden des Dokuments
+- Druckfunktionen basieren auf Dokumenteneigenschaft "Status" und nicht mehr auf Basis des Symbols.
+- LKTools funktioniert nun auch korrekt, wenn ein Willkommensbildschirm beim öffnen von Word ausgewählt wird.
+- Die Positionierung der Textbox "Lösungsvorschlag" wurde überarbeitet.
+- Änderung des Button-Designs
+- Verbesserung von Rechtschreibfehler
+- Optimierung der Notenerstellung (Weißer Hintergrund, dickerer Rand, Schriftgröße 11, Textfarbe rot, Kein Abstand davor und danach, Zeilenabstand 1.0
+
+# Hinweise:
+- die Überprüfung, ob ausgeblendete Inhalte vorhanden sind, erfolgt nur, wenn ein Word Dokument geöffnet ist.
+
+
+###############################################################
+###############################################################
+
+Release/Update Info:
+V.0.3.0.14
+# Features:
+- Unterstreichungen (Unterstriche) können ausgeblendet werden (Checkbox in Einstellungen)
+
+# Bugfixes:
+- Aktualisierung der Einstellungsdatei (UpdateXML), wobei die vorherigen Einstellungen erhalten bleiben
+
+###############################################################
+###############################################################
+
+V.0.3.0.13
+- nicht veröffentlichte Version
+
+###############################################################
+###############################################################
+
+V.0.3.0.12
+# Features:
+- Komplette Neugestaltung der Oberfläche
+- PDF Ausgabe der Schüler- und/oder Lehrer-Lösung
+- Schnelldruck der Schüler- und/oder Lehrer-Lösung
+- Schnelleinfügen einer Textbox mit entsprechender Farbe
+- Hinweis auf Lösungsversion
+- Speicherung der individuellen Einstellungen
+- Schnellauswahl der auszublendenden Farbe via Pipetten-Funktion
+- Schnellfärben von Text (Ausblendfarbe)
+- Schnellfärben von Text (Schwarz)
+- Überprüfung, ob eine Aktualisierung vorliegt
+
+# Bugfix:
+- mehrere kleinere Fehler
+- Schönheitskorrekturen
+
+###############################################################
+###############################################################
+
+V.0.2.0.1
+# Bugfix:
+- Korrektur der Notenberechnung, falls nur "auf 0,5 runden" angeklickt wurde.
+
+V.0.2.0.0:
+# Features:
+- Einfügen eines Notenverteilungsschlüssels
+
+# Bugfix:
+- Bei einer linierten Vorlage innerhalb einer Tabelle wird der Platz zum Rand nun geringer dargestellt. 
+- mehrere kleinere Fehler
+- Schönheitskorrekturen
+
+###############################################################
+###############################################################
+
+Installationshinweise LKTools V.0.4.0.4
+1. Entpacken Sie die Datei <LKTools V.0.3.0.12.zip> in einen beliebigen Ordner.
+2. Öffnen Sie den Ordner und klicken Sie auf <setup.exe>.
+3. Die Funktionen sind im Handbuch <LKTools V.0.4.0.pdf> beschrieben.
+4. Für Testzwecke können Sie das Word Dokument <LKTools Testdoc.docx> verwenden.
+
+Install
+1. Unpack the <LKTools V.0.4.0.0.zip> to any folder
+2. Click on <setup.exe> to install LKTools.
+3. See document Dokumentation <LKTools V.0.4.0.pdf> for further details (only German)
+4. You can use the document LKTools <LKTools Testdoc.docx> for testing purposes.
+
+Installationsprobleme?
+Besuchen Sie die Seite: 
+https://sourceforge.net/p/lktools/tickets/

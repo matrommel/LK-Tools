@@ -1,0 +1,1270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="HelpProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="HelpProvider1.HelpNamespace" xml:space="preserve">
+    <value>https://sourceforge.net/p/lktools/wiki/V.0.3.0/</value>
+  </data>
+  <data name="btnOK.HelpString" xml:space="preserve">
+    <value>Klicken Sie hier, um die Notenskala zu erstellen.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>743, 585</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnOK.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 48</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnOK.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btnCancel.HelpString" xml:space="preserve">
+    <value>Klicken Sie hier, um das Fenster zu schließen.</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>926, 584</value>
+  </data>
+  <data name="btnCancel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 48</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="btnCancel.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtMaxPoints.HelpString" xml:space="preserve">
+    <value>Tragen Sie hier die maximale Punktzah des Leistungsnachweises ein.</value>
+  </data>
+  <data name="txtMaxPoints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 39</value>
+  </data>
+  <data name="txtMaxPoints.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtMaxPoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 35</value>
+  </data>
+  <data name="txtMaxPoints.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtMaxPoints.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;txtMaxPoints.Name" xml:space="preserve">
+    <value>txtMaxPoints</value>
+  </data>
+  <data name="&gt;&gt;txtMaxPoints.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtMaxPoints.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtMaxPoints.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblMaxPoints.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMaxPoints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 39</value>
+  </data>
+  <data name="lblMaxPoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 29</value>
+  </data>
+  <data name="lblMaxPoints.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblMaxPoints.Text" xml:space="preserve">
+    <value>Maximale Punktzahl:</value>
+  </data>
+  <data name="&gt;&gt;lblMaxPoints.Name" xml:space="preserve">
+    <value>lblMaxPoints</value>
+  </data>
+  <data name="&gt;&gt;lblMaxPoints.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMaxPoints.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblMaxPoints.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblGrade1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGrade1.HelpString" xml:space="preserve">
+    <value>Geben Sie an, bis wieviel Prozent die Note 1 vergeben werden soll.</value>
+  </data>
+  <data name="lblGrade1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 43</value>
+  </data>
+  <data name="lblGrade1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGrade1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 29</value>
+  </data>
+  <data name="lblGrade1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblGrade1.Text" xml:space="preserve">
+    <value>Note 1 bis </value>
+  </data>
+  <data name="&gt;&gt;lblGrade1.Name" xml:space="preserve">
+    <value>lblGrade1</value>
+  </data>
+  <data name="&gt;&gt;lblGrade1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGrade1.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblGrade1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtGrade1.HelpString" xml:space="preserve">
+    <value>Geben Sie an, bis wieviel Prozent die Note 1 vergeben werden soll.</value>
+  </data>
+  <data name="txtGrade1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 43</value>
+  </data>
+  <data name="txtGrade1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtGrade1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 35</value>
+  </data>
+  <data name="txtGrade1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="txtGrade1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;txtGrade1.Name" xml:space="preserve">
+    <value>txtGrade1</value>
+  </data>
+  <data name="&gt;&gt;txtGrade1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtGrade1.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtGrade1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 46</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 29</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 98</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 29</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtGrade2.HelpString" xml:space="preserve">
+    <value>Geben Sie an, bis wieviel Prozent die Note 2 vergeben werden soll. Wert muss niedriger als die besseren Noten sein.</value>
+  </data>
+  <data name="txtGrade2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 95</value>
+  </data>
+  <data name="txtGrade2.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtGrade2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 35</value>
+  </data>
+  <data name="txtGrade2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="txtGrade2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;txtGrade2.Name" xml:space="preserve">
+    <value>txtGrade2</value>
+  </data>
+  <data name="&gt;&gt;txtGrade2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtGrade2.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtGrade2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblGrade2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGrade2.HelpString" xml:space="preserve">
+    <value>Geben Sie an, bis wieviel Prozent die Note 2 vergeben werden soll. Wert muss niedriger als die besseren Noten sein.</value>
+  </data>
+  <data name="lblGrade2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 95</value>
+  </data>
+  <data name="lblGrade2.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGrade2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 29</value>
+  </data>
+  <data name="lblGrade2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblGrade2.Text" xml:space="preserve">
+    <value>Note 2 bis </value>
+  </data>
+  <data name="&gt;&gt;lblGrade2.Name" xml:space="preserve">
+    <value>lblGrade2</value>
+  </data>
+  <data name="&gt;&gt;lblGrade2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGrade2.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblGrade2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 149</value>
+  </data>
+  <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 29</value>
+  </data>
+  <data name="Label5.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="&gt;&gt;Label5.Name" xml:space="preserve">
+    <value>Label5</value>
+  </data>
+  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="txtGrade3.HelpString" xml:space="preserve">
+    <value>Geben Sie an, bis wieviel Prozent die Note 3 vergeben werden soll. Wert muss niedriger als die besseren Noten sein.</value>
+  </data>
+  <data name="txtGrade3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 146</value>
+  </data>
+  <data name="txtGrade3.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtGrade3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 35</value>
+  </data>
+  <data name="txtGrade3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="txtGrade3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;txtGrade3.Name" xml:space="preserve">
+    <value>txtGrade3</value>
+  </data>
+  <data name="&gt;&gt;txtGrade3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtGrade3.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtGrade3.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblGrade3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGrade3.HelpString" xml:space="preserve">
+    <value>Geben Sie an, bis wieviel Prozent die Note 3 vergeben werden soll. Wert muss niedriger als die besseren Noten sein.</value>
+  </data>
+  <data name="lblGrade3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 146</value>
+  </data>
+  <data name="lblGrade3.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGrade3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 29</value>
+  </data>
+  <data name="lblGrade3.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblGrade3.Text" xml:space="preserve">
+    <value>Note 3 bis </value>
+  </data>
+  <data name="&gt;&gt;lblGrade3.Name" xml:space="preserve">
+    <value>lblGrade3</value>
+  </data>
+  <data name="&gt;&gt;lblGrade3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGrade3.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblGrade3.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 203</value>
+  </data>
+  <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 29</value>
+  </data>
+  <data name="Label7.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="&gt;&gt;Label7.Name" xml:space="preserve">
+    <value>Label7</value>
+  </data>
+  <data name="&gt;&gt;Label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label7.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;Label7.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="txtGrade4.HelpString" xml:space="preserve">
+    <value>Geben Sie an, bis wieviel Prozent die Note 4 vergeben werden soll. Wert muss niedriger als die besseren Noten sein.</value>
+  </data>
+  <data name="txtGrade4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 200</value>
+  </data>
+  <data name="txtGrade4.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtGrade4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 35</value>
+  </data>
+  <data name="txtGrade4.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="txtGrade4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;txtGrade4.Name" xml:space="preserve">
+    <value>txtGrade4</value>
+  </data>
+  <data name="&gt;&gt;txtGrade4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtGrade4.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtGrade4.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblGrade4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGrade4.HelpString" xml:space="preserve">
+    <value>Geben Sie an, bis wieviel Prozent die Note 4 vergeben werden soll. Wert muss niedriger als die besseren Noten sein.</value>
+  </data>
+  <data name="lblGrade4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 200</value>
+  </data>
+  <data name="lblGrade4.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGrade4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 29</value>
+  </data>
+  <data name="lblGrade4.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblGrade4.Text" xml:space="preserve">
+    <value>Note 4 bis </value>
+  </data>
+  <data name="&gt;&gt;lblGrade4.Name" xml:space="preserve">
+    <value>lblGrade4</value>
+  </data>
+  <data name="&gt;&gt;lblGrade4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGrade4.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblGrade4.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="Label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 255</value>
+  </data>
+  <data name="Label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 29</value>
+  </data>
+  <data name="Label9.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="Label9.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="&gt;&gt;Label9.Name" xml:space="preserve">
+    <value>Label9</value>
+  </data>
+  <data name="&gt;&gt;Label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label9.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;Label9.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtGrade5.HelpString" xml:space="preserve">
+    <value>Geben Sie an, bis wieviel Prozent die Note 5 vergeben werden soll. Wert muss niedriger als die besseren Noten sein.</value>
+  </data>
+  <data name="txtGrade5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 252</value>
+  </data>
+  <data name="txtGrade5.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtGrade5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 35</value>
+  </data>
+  <data name="txtGrade5.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="txtGrade5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;txtGrade5.Name" xml:space="preserve">
+    <value>txtGrade5</value>
+  </data>
+  <data name="&gt;&gt;txtGrade5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtGrade5.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtGrade5.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblGrade5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGrade5.HelpString" xml:space="preserve">
+    <value>Geben Sie an, bis wieviel Prozent die Note 5 vergeben werden soll. Wert muss niedriger als die besseren Noten sein.</value>
+  </data>
+  <data name="lblGrade5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 252</value>
+  </data>
+  <data name="lblGrade5.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGrade5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 29</value>
+  </data>
+  <data name="lblGrade5.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblGrade5.Text" xml:space="preserve">
+    <value>Note 5 bis </value>
+  </data>
+  <data name="&gt;&gt;lblGrade5.Name" xml:space="preserve">
+    <value>lblGrade5</value>
+  </data>
+  <data name="&gt;&gt;lblGrade5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGrade5.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblGrade5.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 302</value>
+  </data>
+  <data name="Label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 29</value>
+  </data>
+  <data name="Label11.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="Label11.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="&gt;&gt;Label11.Name" xml:space="preserve">
+    <value>Label11</value>
+  </data>
+  <data name="&gt;&gt;Label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label11.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;Label11.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblGrade6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGrade6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 303</value>
+  </data>
+  <data name="lblGrade6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 29</value>
+  </data>
+  <data name="lblGrade6.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lblGrade6.Text" xml:space="preserve">
+    <value>Note 6 bis </value>
+  </data>
+  <data name="&gt;&gt;lblGrade6.Name" xml:space="preserve">
+    <value>lblGrade6</value>
+  </data>
+  <data name="&gt;&gt;lblGrade6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGrade6.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblGrade6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 302</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 29</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblErrorText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblErrorText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 98</value>
+  </data>
+  <data name="lblErrorText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 29</value>
+  </data>
+  <data name="lblErrorText.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="lblErrorText.Text" xml:space="preserve">
+    <value>lblErrorText</value>
+  </data>
+  <data name="lblErrorText.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblErrorText.Name" xml:space="preserve">
+    <value>lblErrorText</value>
+  </data>
+  <data name="&gt;&gt;lblErrorText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblErrorText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblErrorText.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 162</value>
+  </data>
+  <data name="GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>287, 401</value>
+  </data>
+  <data name="GroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="GroupBox1.Text" xml:space="preserve">
+    <value>Notenbereich</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Name" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chkNoRounding.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkNoRounding.HelpString" xml:space="preserve">
+    <value>Legen Sie fest, ob standardmäßig eine exakte Berechnung (2 Nachkommastellen) ausgegeben werden soll. Der Wert ist beim Einfügen der Noten überschreibbar.</value>
+  </data>
+  <data name="chkNoRounding.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkNoRounding.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 97</value>
+  </data>
+  <data name="chkNoRounding.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkNoRounding.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 33</value>
+  </data>
+  <data name="chkNoRounding.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chkNoRounding.Text" xml:space="preserve">
+    <value>exakte Berechnung</value>
+  </data>
+  <data name="&gt;&gt;chkNoRounding.Name" xml:space="preserve">
+    <value>chkNoRounding</value>
+  </data>
+  <data name="&gt;&gt;chkNoRounding.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkNoRounding.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="&gt;&gt;chkNoRounding.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chk05Rounding.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk05Rounding.HelpString" xml:space="preserve">
+    <value>Legen Sie fest, ob standardmäßig auf 0,5 % gerundet ausgegeben werden soll. Der Wert ist beim Einfügen der Noten überschreibbar.</value>
+  </data>
+  <data name="chk05Rounding.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 48</value>
+  </data>
+  <data name="chk05Rounding.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk05Rounding.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 33</value>
+  </data>
+  <data name="chk05Rounding.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chk05Rounding.Text" xml:space="preserve">
+    <value>auf 0,5 runden</value>
+  </data>
+  <data name="&gt;&gt;chk05Rounding.Name" xml:space="preserve">
+    <value>chk05Rounding</value>
+  </data>
+  <data name="&gt;&gt;chk05Rounding.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk05Rounding.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="&gt;&gt;chk05Rounding.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GroupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 162</value>
+  </data>
+  <data name="GroupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 149</value>
+  </data>
+  <data name="GroupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="GroupBox2.Text" xml:space="preserve">
+    <value>Ausgabe</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.Name" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnDefaultSettings.HelpString" xml:space="preserve">
+    <value>Die Werte aus dem Einstellungsfenster werden übernommen.</value>
+  </data>
+  <data name="btnDefaultSettings.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDefaultSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 166</value>
+  </data>
+  <data name="btnDefaultSettings.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnDefaultSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 48</value>
+  </data>
+  <data name="btnDefaultSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnDefaultSettings.Text" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="&gt;&gt;btnDefaultSettings.Name" xml:space="preserve">
+    <value>btnDefaultSettings</value>
+  </data>
+  <data name="&gt;&gt;btnDefaultSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDefaultSettings.Parent" xml:space="preserve">
+    <value>GroupBox3</value>
+  </data>
+  <data name="&gt;&gt;btnDefaultSettings.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GradeGraph.HelpString" xml:space="preserve">
+    <value>Anzeige der Notenverteilung in Prozent oder Punkten. Änderung der Noten wirken sich direkt auf die Anzeige aus.</value>
+  </data>
+  <data name="GradeGraph.Location" type="System.Drawing.Point, System.Drawing">
+    <value>664, 174</value>
+  </data>
+  <data name="GradeGraph.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="GradeGraph.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GradeGraph.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 389</value>
+  </data>
+  <data name="GradeGraph.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="GradeGraph.Text" xml:space="preserve">
+    <value>Grafische Darstellung</value>
+  </data>
+  <data name="&gt;&gt;GradeGraph.Name" xml:space="preserve">
+    <value>GradeGraph</value>
+  </data>
+  <data name="&gt;&gt;GradeGraph.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataVisualization.Charting.Chart, System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</value>
+  </data>
+  <data name="&gt;&gt;GradeGraph.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GradeGraph.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="radPercent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radPercent.HelpString" xml:space="preserve">
+    <value>Klicken Sie hier, um die Verteilung in Prozent anzuzeigen.</value>
+  </data>
+  <data name="radPercent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>794, 133</value>
+  </data>
+  <data name="radPercent.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radPercent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 33</value>
+  </data>
+  <data name="radPercent.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="radPercent.Text" xml:space="preserve">
+    <value>Prozent</value>
+  </data>
+  <data name="&gt;&gt;radPercent.Name" xml:space="preserve">
+    <value>radPercent</value>
+  </data>
+  <data name="&gt;&gt;radPercent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radPercent.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;radPercent.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="radPoints.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radPoints.HelpString" xml:space="preserve">
+    <value>Klicken Sie hier, um die Verteilung in Punkten anzuzeigen.</value>
+  </data>
+  <data name="radPoints.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radPoints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>938, 133</value>
+  </data>
+  <data name="radPoints.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radPoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 33</value>
+  </data>
+  <data name="radPoints.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="radPoints.Text" xml:space="preserve">
+    <value>Punkte</value>
+  </data>
+  <data name="&gt;&gt;radPoints.Name" xml:space="preserve">
+    <value>radPoints</value>
+  </data>
+  <data name="&gt;&gt;radPoints.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radPoints.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;radPoints.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label6.HelpString" xml:space="preserve">
+    <value>Die Visualisierung dient der Veranschaulichung der Notenbereiche.</value>
+  </data>
+  <data name="Label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>662, 135</value>
+  </data>
+  <data name="Label6.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 29</value>
+  </data>
+  <data name="Label6.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>Anzeige:</value>
+  </data>
+  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
+    <value>Label6</value>
+  </data>
+  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnGradehart.HelpString" xml:space="preserve">
+    <value>Die Verteilung der Noten erfolgt degressiv. Dies entspricht dem IHK Standard.</value>
+  </data>
+  <data name="btnGradehart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnGradehart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 107</value>
+  </data>
+  <data name="btnGradehart.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnGradehart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 48</value>
+  </data>
+  <data name="btnGradehart.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="btnGradehart.Text" xml:space="preserve">
+    <value>degressiv</value>
+  </data>
+  <data name="&gt;&gt;btnGradehart.Name" xml:space="preserve">
+    <value>btnGradehart</value>
+  </data>
+  <data name="&gt;&gt;btnGradehart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGradehart.Parent" xml:space="preserve">
+    <value>GroupBox3</value>
+  </data>
+  <data name="&gt;&gt;btnGradehart.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnGradelinear.HelpString" xml:space="preserve">
+    <value>Gleichmäßige Verteilung der % Werte bzw. der Punkte auf alle Notenbereiche.</value>
+  </data>
+  <data name="btnGradelinear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnGradelinear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 44</value>
+  </data>
+  <data name="btnGradelinear.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnGradelinear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 48</value>
+  </data>
+  <data name="btnGradelinear.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="btnGradelinear.Text" xml:space="preserve">
+    <value>linear</value>
+  </data>
+  <data name="&gt;&gt;btnGradelinear.Name" xml:space="preserve">
+    <value>btnGradelinear</value>
+  </data>
+  <data name="&gt;&gt;btnGradelinear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGradelinear.Parent" xml:space="preserve">
+    <value>GroupBox3</value>
+  </data>
+  <data name="&gt;&gt;btnGradelinear.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 334</value>
+  </data>
+  <data name="GroupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 229</value>
+  </data>
+  <data name="GroupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="GroupBox3.Text" xml:space="preserve">
+    <value>Notenverteilung</value>
+  </data>
+  <data name="&gt;&gt;GroupBox3.Name" xml:space="preserve">
+    <value>GroupBox3</value>
+  </data>
+  <data name="&gt;&gt;GroupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>14, 29</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1124, 649</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAEBAQAAEABAAoAQAANgAAABAQAAABAAgAaAUAAF4BAAAQEAAAAQAgAGgEAADGBgAAKAAAABAA
+        AAAgAAAAAQAEAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAACAgACAAAAAgACAAICA
+        AACAgIAAwMDAAAAA/wAA/wAAAP//AP8AAAD/AP8A//8AAP///wAAAAAAAAAAAA//////////D3d3d3d3
+        d38Pf/9//3//fw9//3//f/9/D3d3d3d3d38Pf/9//3//fw9//3//f/9/D3d3d3d3d38Pf/9//3//fw9/
+        /3//f/9/D3d3d3d3d38Pd3d3d3d3fw93d3d3d3d/D/////////8AAAAAAAAAAP//AACAAAAAgAAAAIAA
+        AACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAP//AAAoAAAAEAAAACAA
+        AAABAAgAAAAAAAABAAAAAAAAAAAAAAABAAAAAQAAAAAAAEJCQgDx7/AA9vb2AAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////AAAAAAAAAAAAAAAAAAAAAAAAAwMDAwMDAwMD
+        AwMDAwMDAAMBAQEBAQEBAQEBAQEBAwADAQICAgECAgIBAgICAQMAAwECAgIBAgICAQICAgEDAAMBAQEB
+        AQEBAQEBAQEBAwADAQICAgECAgIBAgICAQMAAwECAgIBAgICAQICAgEDAAMBAQEBAQEBAQEBAQEBAwAD
+        AQICAgECAgIBAgICAQMAAwECAgIBAgICAQICAgEDAAMBAQEBAQEBAQEBAQEBAwADAQEBAQEBAQEBAQEB
+        AQMAAwEBAQEBAQEBAQEBAQEDAAMDAwMDAwMDAwMDAwMDAwAAAAAAAAAAAAAAAAAAAAD//wAAgAAAAIAA
+        AACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAAD//wAAKAAAABAA
+        AAAgAAAAAQAgAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/AAAAAPb29v9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/9vb2/wAAAAD29vb/QkJC//Hv
+        8P/x7/D/8e/w/0JCQv/x7/D/8e/w//Hv8P9CQkL/8e/w//Hv8P/x7/D/QkJC//b29v8AAAAA9vb2/0JC
+        Qv/x7/D/8e/w//Hv8P9CQkL/8e/w//Hv8P/x7/D/QkJC//Hv8P/x7/D/8e/w/0JCQv/29vb/AAAAAPb2
+        9v9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/9vb2/wAA
+        AAD29vb/QkJC//Hv8P/x7/D/8e/w/0JCQv/x7/D/8e/w//Hv8P9CQkL/8e/w//Hv8P/x7/D/QkJC//b2
+        9v8AAAAA9vb2/0JCQv/x7/D/8e/w//Hv8P9CQkL/8e/w//Hv8P/x7/D/QkJC//Hv8P/x7/D/8e/w/0JC
+        Qv/29vb/AAAAAPb29v9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/9vb2/wAAAAD29vb/QkJC//Hv8P/x7/D/8e/w/0JCQv/x7/D/8e/w//Hv8P9CQkL/8e/w//Hv
+        8P/x7/D/QkJC//b29v8AAAAA9vb2/0JCQv/x7/D/8e/w//Hv8P9CQkL/8e/w//Hv8P/x7/D/QkJC//Hv
+        8P/x7/D/8e/w/0JCQv/29vb/AAAAAPb29v9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/9vb2/wAAAAD29vb/QkJC/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC//b29v8AAAAA9vb2/0JCQv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JC
+        Qv9CQkL/QkJC/0JCQv9CQkL/QkJC/0JCQv/29vb/AAAAAPb29v/29vb/9vb2//b29v/29vb/9vb2//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//b29v/29vb/9vb2/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAgAAAAIAAAACAAAAAgAAAAIAA
+        AACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAAD//wAA
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Notentabelle erstellen</value>
+  </data>
+  <data name="&gt;&gt;HelpProvider1.Name" xml:space="preserve">
+    <value>HelpProvider1</value>
+  </data>
+  <data name="&gt;&gt;HelpProvider1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.HelpProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmIHK</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

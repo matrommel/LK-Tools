@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LKTools", "LKTools\LKTools.vbproj", "{233EF5E7-9F52-4CDE-AE82-94F7240DAAA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{233EF5E7-9F52-4CDE-AE82-94F7240DAAA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{233EF5E7-9F52-4CDE-AE82-94F7240DAAA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{233EF5E7-9F52-4CDE-AE82-94F7240DAAA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{233EF5E7-9F52-4CDE-AE82-94F7240DAAA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {269C3196-4CF4-41D3-A518-F1B75E909D9D}
+	EndGlobalSection
+EndGlobal

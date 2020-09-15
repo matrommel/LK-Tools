@@ -1,0 +1,33 @@
+<h1>V.0.5.0.0</h1>
+# Features:
+## Allgemeine Funktionen
+
+## Objekte
+
+
+## Ausgabe
+
+
+# Bugfixes:
+
+
+#Hinweise:
+
+
+To-do V.0.5.0.0
+- Handbuch aktualisieren für Pfad ausgabe!
+
+To-do: V.0.5.0.0
+- Logbuch
+- Auto Update Funktion
+- Installer Problem wegen falschem Zertifikat
+- letzter geöffneter Eistellungs-Tab öffnen bzw. merken
+- Anzeige der letzten Änderungen
+- Erstellen von mehreren Dokumente im docx Format
+- printhiddenText Checkbox automatisch nach Vorgabe füllen!? in PDF erweiterter Druck einfügen
+  in Schnelldruck einfügen (ausgeblendeter Text bei Lösung immer und bei ohne Lösung nie 	drucken)
+
+Ideen:
+- Quick Search vs. Extensive Search
+  Checkboxen, ob in Kopfzeile, Textboxen etc. gesucht werden soll. ggf. eigener Button
+- Wenn PDF Export oder Schnelldruck gedruckt aber keine ausgeblendeten Objekte existieren, dann nur ein Dokument drucken
